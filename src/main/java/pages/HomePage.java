@@ -6,6 +6,7 @@ public class HomePage extends Page {
 
 	public HomePage(WebDriver dr) {
 		super(dr);
+		testBase.driver = dr;
 	}
 
 }
